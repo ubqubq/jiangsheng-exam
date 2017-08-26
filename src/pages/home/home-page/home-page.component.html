@@ -5,7 +5,7 @@
 <button (click)="random()">倒序</button>
 
 <div>第一个联系人是：{{this.contacts[0].name}}</div>
-<div>{{firstLine}}</div>
+
 <ul>
-    <li *ngFor="let user of contacts">{{user.name}} {{user.sex}} {{user.mobile}}</li>
+    <li *ngFor="let user of cards">{{user.name}} {{user.type}} {{user.cost }}</li>
 </ul>

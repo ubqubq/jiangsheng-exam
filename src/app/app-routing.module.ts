@@ -9,6 +9,7 @@ const SSRroutes: Routes = [
   },
   { path: 'home', loadChildren: '../pages/home/home.module#HomeModule' },
   { path: 'about', loadChildren: '../pages/about/about.module#AboutModule' },
+  { path: 'cardlist', loadChildren: '../pages/card/card.module#CardModule' },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
